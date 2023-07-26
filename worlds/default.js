@@ -80,6 +80,7 @@ export function init(Constants) {
                 attribution: "https://www.clicktorelease.com/blog/vertex-displacement-noise-3d-webgl-glsl-three-js/",
             },
         },
+        /*
         {
             card: {
                 name: "horse",
@@ -97,6 +98,7 @@ export function init(Constants) {
                 attribution: "Mirada for Ro.me",
             },
         },
+        */
 
         /*{
             card: {
@@ -204,6 +206,8 @@ export function init(Constants) {
                 shadow: true,
             }
         },
+
+        /*
         {
             card:{
                 translation: [14.323492647614785, -2.7804596526792222, -5.391810022345661],
@@ -223,6 +227,8 @@ export function init(Constants) {
                 flatten: true
             }
         },
+        */
+        /*
         {
             card: {
                 dataLocation: "./assets/3D/temple_wmoss.glb",
@@ -252,5 +258,6 @@ export function init(Constants) {
                 attribution: "Havolik, modified by Kai Oldman",
             },
         }
+        */
     ];
 }

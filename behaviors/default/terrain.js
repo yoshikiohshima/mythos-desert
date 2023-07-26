@@ -57,6 +57,7 @@ class TerrainPawn {
         if (search.get("blades")) {
             this.numGrassBlades = parseInt(search.get("blades"), 10);
         }
+        this.numGrassBlades = 0;
         this.grassPatchRadius = 175.0;
         this.heightFieldSize = 3072.0;
         this.heightFieldHeight = 180.0;
@@ -206,7 +207,7 @@ class TerrainPawn {
                 }
             );
         this.water.position.z = this.waterLevel; // in terrain coordinates and rotation
-        this.group.add(this.water);
+        // this.group.add(this.water);
         });
     }
 
